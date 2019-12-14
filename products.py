@@ -3,7 +3,7 @@ import os
 
 products = [] #大清單
 # 讀取檔案
-if os.ospath.isfile('products.csv'): # 檢查檔案在不在
+if os.path.isfile('products.csv'): # 檢查檔案在不在
 	print('找到檔案了！')
 	with open('products.csv', 'r', encoding='utf-8') as f:
 		for line in f:
